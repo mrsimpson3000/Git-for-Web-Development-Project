@@ -126,12 +126,33 @@
 
     37. Walk me through Lambda's git flow. 
     1. Create YOUR OWN version of Repo --> (Fork)
-    2.
+    2. Your name should now be in front of the repo name
+    3. Add yout TL as a collaborator
+    4. Clone your repo
+    5. Use the cd command to go to the directory where you want the cloned repo to go
+    6. Use the git clone <link-to-repo> command to clone the repo to your current directory
+    7. cd into the newly created directory
+    8. Use the git checkout -b 'firstname-lastname' command to create your own branch name for the repo
+    9. Now you can work on your repo
+    10. To add and commit changes on your branch you can do the following:
+        git add . adds the repo changes preparing them for committing
+        git commit -m "helpful message here" to commit changes with specified message
+    11. Push changes back to your own repo using git push -u origin branch-name
+    12. Submit pull request
+    13. Add your TL and submit
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can) while an inline element does not start on a new line and only takes up as much width as necessary.
+
     2. What happens when an element is positioned absolutely? 
+    An absolutely positioned element is an element whose computed position value is absolute or fixed.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+  
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+
     5. In your own words, explain the box model. What is the fix for the box model?
